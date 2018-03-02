@@ -9,7 +9,8 @@ class DungeonMaster {
     }
     listen() {
         app.get('/', (req, res) => {
-            res.send('Hello world!');
+            res.send('Nerd!!!!');
+            console.log('New user');
         });
         app.listen(app.get('port'), () => {
             console.log(`Listening on port ${app.get('port')}`)
